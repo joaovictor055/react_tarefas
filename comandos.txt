@@ -1,0 +1,18 @@
+
+Aqui está uma breve descrição de cada um dos comandos Git mencionados:
+
+git add .: Este comando adiciona todas as modificações e novos arquivos no diretório de trabalho para a área de preparação (staging). Isso significa que as alterações estão prontas para serem incluídas no próximo commit.
+
+git commit -m "": Este comando cria um novo commit com as alterações que foram adicionadas à área de preparação. A opção -m é seguida por uma mensagem de commit curta e descritiva que explica as mudanças realizadas no commit.
+
+git push: Este comando envia os commits locais para um repositório remoto. Geralmente, é usado após git commit para enviar as alterações para o repositório remoto no GitHub, GitLab, Bitbucket ou outro host.
+
+git pull: Este comando recupera as alterações do repositório remoto e as mescla automaticamente no seu branch local. É usado quando você deseja atualizar seu branch local com as alterações feitas por outras pessoas no repositório remoto.
+
+git init: Este comando é usado para iniciar um novo repositório Git. Ele cria um novo repositório vazio ou reinicia um repositório existente.
+
+git remote add: Este comando é utilizado para adicionar um repositório remoto. Ele cria uma referência remota que pode ser usada para interagir com um repositório remoto, como fazer push ou pull de alterações.
+
+git remote remove: Este comando é usado para remover uma referência remota previamente configurada. Ele desvincula o repositório local do repositório remoto.
+
+git clone: Este comando é usado para clonar (copiar) um repositório existente para o seu ambiente local. Ele cria uma cópia completa do repositório, incluindo todos os ramos e histórico de commits.
